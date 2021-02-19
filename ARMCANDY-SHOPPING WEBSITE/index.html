@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Armcandies-Designed with Passion</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/custom.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/fontawesome.css" rel="stylesheet">
+
+  <link  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+ 
+<body>
+    <!-- NAVBAR 1 HERE USED THE CUSTOM CSS TO FIVE SEARCH PLACE HOLDER ROUNDED SHAPE AND ALSO USED FONT AWSOME CSS FOR THE ICONS AND SHOPPING CART -->
+  
+      <nav class="navbar  navbar-expands-lg navbar-expands-md  navbar-expands-sm  navbar-expand-xs navbar-light  " style="background: #ecb12f">
+          <a class="navbar-brand" href="#home"><img id="logo" class="no-opacity" ></a>
+       <button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#searchbar" 
+       aria-controls="navbarResponsive"  aria-label="Toggle navigation">
+          <span class="fa fa-search" ></span>
+        </button>
+        
+
+      
+        <div class="collapse navbar-collapsed" id="searchbar">
+            <ul class="navbar-nav  ">
+                <form class="form-inline ">
+                    <input class="form-control form-rounded " type="search" placeholder="Search">
+                    <img src="https://img.icons8.com/ios/30/000000/vertical-line.png">
+                    <button  id="btn" class=" btn btn-light btn-sm" type="submit"><i class="fa fa-search my-2 my-sm-0" aria-hidden="false"></i></button>
+                    <img src="https://img.icons8.com/ios/30/000000/vertical-line.png" aria-hidden="false">
+                    <i class=" btn btn-light btn-sm  fa fa-shopping-cart"  aria-hidden="false" role="button" onclick="relocate_home()" ></i>
+                    <script>
+                      // USED THE FUNCTION ON CLICK OF THE ICON
+                        function relocate_home()
+                        {
+                            location.href="file:///Users/manavsethi/Downloads/startbootstrap-bare-gh-pages/cart.html"
+                        } 
+                    </script>
+                    
+                </form>
+            </ul>
+            
+          </div>
+         
+</nav>
+   <!-- NAVBAR 2 HERE USED THE  BOOTSTRAP BARE MIN CSS TO ADD THE  MENU ITEM DROP DOWN -->
+<nav class="navbar  navbar-expand-lg navbar-dark bg-dark ">
+    <div class="container">
+        <a class="navbar-brand" href="/">
+          <div class="logo-image">
+                <img src="https://i.ibb.co/bv2GxHG/Screen-Shot-2019-10-03-at-1-06-51-AM.png" class="img-fluid">
+          </div>
+          
+    </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="true" aria-label="Toggle navigation" >
+        <span class="navbar-toggler-icon "></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="shop.html">Shop
+                
+            </a>
+                      <!-- Add multi level sub menu -->
+            <ul class="dropdown-menu">
+             <li><a href="shop.html" class="dropdown-item">Jackets</a></li>
+             <li><a href="#" class="dropdown-item">Clutch</a></li>
+            <li><div class="dropdown-divider"></div></li>
+           <li><a href="#" class="dropdown-item">Accessories</a></li>
+         </ul>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cart.html">Cart</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Register</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+<!-- ADDED THE CAROUSEL WITH THE USE OF THE BOOTSTRAP -4 BARE MIN CSS-->
+<section id= "carousel" class="carousel slide " data-ride="carousel">
+  <div class="carousel-inner" role="listbox" style=" width:100%; height: 500px !important;">
+    <div class="carousel-item active">
+      <img src="https://i.ibb.co/3hWXrW1/Screen-Shot-2019-10-03-at-2-48-22-AM.png"class="d-block w-100" alt="image 1" >
+    </div>
+    <div class="carousel-item">
+        <img src="https://i.ibb.co/QKkf4bw/Screen-Shot-2019-10-03-at-2-49-17-AM.png" class="d-block w-100" alt="image 2">
+      </div>
+      <div class="carousel-item">
+          <img src="https://i.ibb.co/gDkrtDt/Screen-Shot-2019-10-03-at-2-50-22-AM.pngs" class="d-block w-100" alt="image 3">
+        </div>
+  </div>
+  <a class="carousel-control-prev" href="#carousel" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#carousel" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</section>
+<div class="container spacer">
+    <div class="row justify-content-center"> 
+        <h1 style="color:white"> NEW MODELS</h1>
+        
+    </div>
+  
+  </div>
+<!-- ADDED CARDS AND ADED IMAGES INLINE  -->
+<div class="container text-center "  >
+     <div class="row justify-content-md-center">
+        <div class="col-auto col-sm">
+            <div class="card mx-auto"  style="width: 18rem ">
+                <img class="card-img-top" src="https://ilovedesigner.com/pub/media/catalog/product/cache/d48ad8856c1a6e03d10c8c6aaff41c62/h/e/heera-clutch-front-ethnique-ph-philippines-east-meets-west-luxury-portal-london-ild.jpg" alt="Card image cap" width="286" height="180">
+                <div class="card-body ">
+                  <h5 class="card-title">Reva Clutch</h5>
+                  <p class="card-text"> Tropical design embroidered on a printed handloom fabric, then accented with colorful tassels along the sides Handmade metticulous.</p>
+                  <h5 class="card-title">$300</h5>
+                  <a href="#" class="btn btn-outline-light btn-rounded waves-effect">Buy now</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-auto col-sm">
+            <div class="card mx-auto" style="width: 18rem ">
+                <img class="card-img-top" src="https://ilovedesigner.com/pub/media/catalog/product/cache/d48ad8856c1a6e03d10c8c6aaff41c62/p/r/pravin-clutch-teal-ethnique-ph-i-love-designer-london-front.jpg" alt="Card image cap" width="286" height="180">
+                <div class="card-body">
+                  <h5 class="card-title">Tapi Clutch</h5>
+                  <p class="card-text">This Holi Blue Clutch embroidered tassel sling bag features a tropical design embroidered on a printed handloom fabric.</p>
+                  <h5 class="card-title">$200</h5>
+                  <a href="#" class="btn btn-outline-light btn-rounded waves-effect">Buy now</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-auto col-sm">
+            <div class="card mx-auto" style="width: 18rem ">
+                <img class="card-img-top" src="https://ilovedesigner.com/pub/media/catalog/product/cache/d48ad8856c1a6e03d10c8c6aaff41c62/h/o/holi-blue-clutch-embroidery-front-ethnique-ph-philippines-east-meets-west-luxury-portal-london-ild.jpg" alt="Card image cap" width="286" height="180">
+                <div class="card-body">
+                  <h5 class="card-title">Jhelum Clutch</h5>
+                  <p class="card-text">This tiny Serpui Marie clutch has hand-painted donut graphics on a glossy exterior.The top kiss lock opens to the brocade-lined interior.</p>
+                  <h5 class="card-title">$500</h5>
+                  <a href="#" class="btn btn-outline-light btn-rounded waves-effect">Buy now</a>
+                </div>
+              </div>
+          
+        
+        </div>
+      </div>
+    </div>
+
+    
+        <h1 class="display-4 text-center"> Fresh From Blog</h1>
+       <!-- MADE THE USE OF THE GRIDS  AND MADE IT RESPONSIVEUSING THE CUSTOM AND BOOTSTRAP MIN CSS -->
+  <div class="container spacer">
+    <section id="intro" class="section">
+           <div class="container">
+        	      <div class="row">
+                <div class="col-sm-12 col-md-8 col-lg-9 text-left" style="background-color: white">
+                    <img style="float:left;" src="https://ilovedesigner.com/pub/media/catalog/product/cache/d48ad8856c1a6e03d10c8c6aaff41c62/h/o/holi-blue-clutch-embroidery-front-ethnique-ph-philippines-east-meets-west-luxury-portal-london-ild.jpg"/>
+                    
+                    <h3 class="mt-5 ">Susan Wahlfeldt:</h3>
+                    <span class="fa fa-star checked"></span>  
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <p>This bag is adorable! Fast shipping! I love it! Will purchase again. Can't wait to use it. LOVE LOVE LOVE! This is an authentic Ethnic Banjara bag, and not a replica. Some beads or mirrors may be missing - this is not an imperfection
+                      Trendy accessory for any occasion. Perfect as a shoulder bag, crossbody bag, messenger bag or weekender bag.
+                        </p>
+               </div>
+        	        <aside class="col-sm-12 col-md-4 col-lg-3 text-left" style="background-color:whitesmoke">
+                    <h3 class="mt-5 ">Melissa borowick:</h3>
+                    <span class="fa fa-star checked"></span>  
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>  
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+       	          <p>Beautiful hand made craft work. It was larger than it looked on line. There were finishing touches like a tassel and bead work on the handle. Well made in ethnic boho style.</p>
+        	        </aside>
+       	      </div>
+       	    </div>
+            </section>
+    </div>
+        
+   
+  
+  
+    
+
+
+ 
+    
+
+
+
+
+  <!-- Footer -->
+<footer class="page-footer font-small special-color-dark pt-4">
+
+    <!-- Footer Elements -->
+    <div class="container special-color-dark" >
+  
+      <!-- Social buttons -->
+      <ul class="list-unstyled list-inline text-center">
+        <li class="list-inline-item">
+          <a class="btn-floating btn-fb mx-1">
+            <i class="fa fa-facebook-f"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-tw mx-1">
+            <i class="fa fa-twitter"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-gplus mx-1">
+            <i class="fa fa-google"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-li mx-1">
+            <i class="fa fa-linkedin"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-dribbble mx-1">
+            <i class="fa fa-dribbble"> </i>
+          </a>
+        </li>
+      </ul>
+      <!-- Social buttons -->
+  
+    </div>
+    <!-- Footer Elements -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <a href=""> Armcandy.com</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.slim.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
